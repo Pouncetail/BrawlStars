@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Brawl Stars Simulator</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style3.css" type="text/css">
+    </head>
+
+    <body>
+        <div id="background2">
+            <h1>Brawler Voting</h1>
+            <img id="image1" src="BrawlStarsImage2.jpg" alt="BrawlStarsImage2.jpg">
+        <h2>Voting Page</h2>
+        <form action="/processVoting" method="post">
+            <label>User Name: <input type="text" name="UserName"/></label> <br><br>
+        <span>Select Brawlers <select name="brawlersSelected">
+            <%- brawlers %>
+        </select> </span><br><br>
+        <span>
+            <input type="reset" />
+		    <input type="submit" value="Place order"/>
+         </span>
+        </form> <br>
+        <span> <a href="/"><u>HOME</u></a></span>   
+        </div>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+html {
+    height: fit-content;
+    box-sizing: border-box;
+    font-size: 1.04rem;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+#image1{
+    width: 59.25rem;
+}
+
+#background2 {
+    border: 0.5rem black double;
+    margin: auto;
+    height: fit-content; 
+    width: 1000px;
+}
